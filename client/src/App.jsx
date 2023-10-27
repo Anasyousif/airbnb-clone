@@ -2,7 +2,7 @@ import './App.css'
 import {Route, Routes} from "react-router-dom";
 import IndexPage from "./pages/IndexPage.jsx";
 import LoginPage from "./pages/LoginPage";
-import Layout from "./Layout";
+import Layout from "./Layout.jsx";
 import RegisterPage from "./pages/RegisterPage";
 import axios from "axios";
 import {UserContextProvider} from "./UserContext";
